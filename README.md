@@ -9,11 +9,11 @@ article-update-node
 bashcd article-update-node
 npm install
 
-# Copy and configure environment variables
+Copy and configure environment variables
 
 cp .env.example .env
 
-# Edit .env with your configuration
+Edit .env with your configuration
 
 npm start OR npm run dev OR node src/index.js
 
@@ -29,14 +29,18 @@ npm run dev
 scrape-php
 composer install
 
-# Configure your PHP environment and database settings
+Configure your PHP environment and database settings
 
-# Start PHP server
+Start PHP server
 
 php -S localhost:8000
 
+<!-- --------------------------------- -->
+
 ⚙️ Configuration
 Each project require its own configuration:
+
+<!-- --------------------------------- -->
 
 article-update-node: Configure database connections and API keys in .env
 in .env file we need below keys
@@ -47,8 +51,12 @@ GOOGLE_GEMINI_API_KEY=<your generated gemini api>
 GOOGLE_API_KEY=<your generated api>
 GOOGLE_SEARCH_ENGINE_ID=<your generated api>
 
+<!-- --------------------------------- -->
+
 scrape-article-react: Simply npm i and then npm run dev(vite-tailwind setup project)
 .env file not needed
+
+<!-- --------------------------------- -->
 
 scrape-php: Update database credentials and scraping settings in configuration files
 simply copy this in .env file and don't forget composer install
@@ -119,6 +127,8 @@ AWS_BUCKET=
 AWS_USE_PATH_STYLE_ENDPOINT=false
 
 VITE_APP_NAME="${APP_NAME}"
+
+<!-- --------------------------------- -->
 
 🔄 Workflow
 
