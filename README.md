@@ -151,3 +151,6 @@ Firoz Akhter
 📞 Support
 For support, please open an issue in the repository
 or you can mail to: firozakhter789@gmail.com
+
+![Homepage Screenshot](screenshots/scraper-ss.png)
+![Homepage Screenshot](screenshots/scraper-ss-local.png)
