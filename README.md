@@ -152,5 +152,6 @@ Firoz Akhter
 For support, please open an issue in the repository
 or you can mail to: firozakhter789@gmail.com
 
+IN order to run the frontend successfully we should run the scraper-php locally on our machine because vercel hosted React UI is connected with localhost:8000/api
 ![Homepage Screenshot](screenshots/scraper-ss.png)
 ![Homepage Screenshot](screenshots/scraper-ss-local.png)
